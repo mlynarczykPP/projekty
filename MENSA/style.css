@@ -1,0 +1,166 @@
+body {
+	background-color: lightgray;
+    font-family: sans-serif;
+}
+
+#strona {
+    width: 90%;
+    padding: 0;
+    margin: 0 auto;
+    padding-right: 0;
+}
+
+header {
+	text-align: left;
+}
+
+#szukaj {
+	position: absolute;
+	top: 8px;
+	right: 90px;
+	text-align: left;
+}
+
+#menu {
+	background-color: #3d3d3d;
+	border-radius: 10px;
+}
+
+nav ul{
+	text-decoration: none;
+	list-style-type: none;
+	padding-inline-start: 15px;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 1.5em;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-right: 1px solid gray;
+}	
+
+#kont {
+	border-right: 0;
+}
+
+#artykuly {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+h2 {
+	color: #3d3d3d;
+	text-align: left;
+}
+
+#artykuly p {
+	text-align: left;
+}
+
+h1 {
+	text-align: center;
+	color: #3d3d3d;
+	font-size: 4em;
+}
+
+#art {
+	display: inline-block;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+	color: #3d3d3d;
+}
+
+#art p {
+	text-align: center;
+}
+
+#art2 {
+	display: inline-block;
+	width: 30%;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #3d3d3d;
+}
+
+#art3 {
+	display: inline-block;
+	width: 30%;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #3d3d3d;
+}
+
+#art3 a {
+	text-decoration: none;
+}
+
+#art4 {
+	display: inline-block;
+	width: 30%;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #3d3d3d;
+}
+
+footer p {
+	text-align: left;
+	color: #3d3d3d;
+}
+
+@media all and (max-width: 301px) {
+    header {
+		text-align: center;
+	}
+	
+	#szukaj {
+		text-align: center;
+		position: inherit;
+	}
+	
+	#art, #art2, #art3, #art4 {
+		display: inline-block;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+    }
+}
+
+@media all and (min-width: 301px) and (max-width: 599px){
+	header {
+		text-align: center;
+	}
+	
+	#szukaj {
+		text-align: center;
+		position: inherit;
+	}
+	
+    #art1, #art2, #art3, #art4 {
+		display: inline-block;
+		width: 100%;
+    }
+}

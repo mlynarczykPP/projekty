@@ -1,0 +1,68 @@
+<html lang="pl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title> Piotr Młynarczyk - BD2 Projekt </title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="strona">
+		<header>
+			<a href="index.html">Biblioteka</a>
+		</header>
+		<div id="menu">
+			<nav>
+				<ul>
+					<li id="czytelnik"><a href="czytelnik.php">Czytelnik</a>
+						<ul id="pod">
+							<li><a href="dodaj_cz.php">Dodaj</a></li>
+							<li><a href="usun_cz.php">Usuń</a></li>
+							<li><a href="ksiazki.php">Szukaj</a></li>
+						</ul>
+					</li>
+					<li id="ksiazka"><a href="ks.php">Książka</a>
+						<ul id="pod">
+							<li><a href="dodaj_ks.php">Dodaj</a></li>
+							<li><a href="usun_ks.php">Usuń</a></li>
+							<li><a href="dzial.php">Dział</a></li>
+							<li><a href="autor.php">Autorzy</a></li>
+						</ul>
+					</li>
+					<li><a href="wypozyczenia.php">Wypożyczenia</a></li>
+					<li><a href="oddaj.php">Oddanie</a></li>
+				</ul>				
+			</nav>
+		</div>
+		<div id="artykuly">
+			<article id="artindex">
+			<br>
+					<h3 id="logos">Prywatna biblioteka "LOGOS"</h3><br>
+				<p>
+					Strona ułatwia korzystanie z bibliotecznej bazy danych.<br>
+					Pozwala na:
+					<ul id="ull">
+						<li>dodanie lub usunięcie czytelnika</li>
+						<li>dodanie lub usuniecie książki</li>
+						<li>sprawdzenie w jakim dziale znajduje się dana książka</li>
+						<li>sprawdzenie jakie książki wypożyczyli dani czytelnicy</li>
+						<li>wypożyczenie książki przez czytelnika</li>
+					</ul>
+					</p>
+					<p><br>W razie pytań zapraszam do kontaktu!<br>
+					<text id="tekst">Autor: </text>Piotr Młynarczyk<br>
+					<text id="tekst">Tel.: </text>+48 123 123 123<br>
+					<text id="tekst">Mail: </text>adres.mailowy@poczta.eu<br>
+					<text id="tekst"><a href="projektBD2.png" target="blank">Diagram UML</a></text><br>
+					</p>
+					<br>
+			</article>
+			<article id="art2png">
+				<br><br>
+				<img src="books.png" id="obraz"></img>
+				<br><br>
+			</article>
+		</div>
+    </div>
+</body>
+</html>
